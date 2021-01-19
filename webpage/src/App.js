@@ -38,7 +38,12 @@ class App extends Component {
       this.setState({classPos3: this.x});
     } 
   };
-
+  shouldComponentUpdate(nextProps, nextState){
+    if(nextState.renderImg === this.state.renderImg){
+      return false;
+    }
+    return true;
+  }
   render(){
     console.log('Render called');
     console.log(this.state);
