@@ -53,8 +53,7 @@ body{
 .ProductIamge{
   width: 100%;
   max-width: 80px;
-
-
+  
   border: 2px solid transparent;
   border-radius: 8px;
   margin-right: 12px;
